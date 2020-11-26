@@ -45,7 +45,12 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*navigation toolzone*/
+
 .nav a,
 .contact-us a {
   font-family: Roboto;
@@ -54,7 +59,6 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .nav a {
