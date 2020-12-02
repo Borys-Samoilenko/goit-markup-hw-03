@@ -16,7 +16,7 @@
   font-family: Roboto, sans-serif;
   font-weight: 400;
   box-sizing: border-box;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,10 +99,11 @@ a {
 .contact-us {
   display: flex;
   margin-left: auto;
+  direction: rtl;
 }
 
 .contact-us .item + .item {
-  margin-left: 50px;
+  margin-right: 50px;
 }
 .contact-us .link {
   color: var(--primary-text-color);
@@ -158,6 +159,7 @@ a {
   color: var(--primary-headers-color);
   margin-bottom: 50px;
   margin-top: 0;
+  text-align: center;
 }
 .feature-list {
   display: flex;
